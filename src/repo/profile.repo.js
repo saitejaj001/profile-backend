@@ -1,4 +1,5 @@
 const skillSchema = require("./models/SkillsSchema");
+const profileRepo = require("./index")
 const mongoose = require("mongoose")
 
 const getAllSkills = async () => {
