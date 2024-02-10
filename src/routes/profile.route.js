@@ -1,5 +1,4 @@
 const {Router}  = require('express')
-const mongoose = require('../repo')
 const {getAllSkills} = require('../repo/profile.repo')
 
 const router = Router()
